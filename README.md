@@ -1,4 +1,4 @@
-# Proyecto SQL Server - Empresas
+# Proyecto SQL Server - Portal de Empleos
 
 Este repositorio contiene el desarrollo de una base de datos en **SQL Server**, dividido en etapas:  
 1. Diseño del modelo entidad-relación en **dbdiagram.io**.  
