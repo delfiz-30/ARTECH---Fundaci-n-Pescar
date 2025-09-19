@@ -19,16 +19,11 @@ Diseñar e implementar una base de datos que permita gestionar un portal de empl
 ---
 
 ## 📂 Contenido
-ortal-empleos-bd
-│── README.md
-│── /diagram
-│     ├── PortalEmpleos.dbml        # código del diagrama (dbdiagram.io)
-│     ├── PortalEmpleos.png         # exportación del diagrama desde dbdiagram
-│     └── PortalEmpleos_SSMS.png    # captura/exportación del diagrama de SSMS
-│── /scripts
-      ├── 01_creacion_bd.sql
-      ├── 02_datos_iniciales.sql
-      └── 03_consultas.sql
+- `/diagram/PortalEmpleos.dbml` → Código fuente del diagrama en **dbdiagram.io**.  
+- `/diagram/PortalEmpleos.dbml` → Imagen exportada del diagrama entidad-relación. Versión conceptual (dbdiagram.io)
+- `/diagram/PortalEmpleos_SSMS` → Imagen exportada del diagrama entidad-relación. Versión implementada en SQL Server (SSMS)
+- `/scripts/02_CreacionDeBase_DatosIniciales.sql` → Script con creación de tablas, relaciones e inserción de registros de prueba.  
+- `/scripts/03_consultas_y_creacionView.sql` → Script correspondiente a la tercera parte del trabajo práctico de Bases de Datos.  
 ---
 
 ## ⚙️ Requisitos
