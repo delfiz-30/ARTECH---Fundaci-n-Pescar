@@ -35,4 +35,4 @@ Incluyen la creación de tablas, inserción de datos y consultas para la gestió
 
 ## 👩‍💻 Autor
 
-Proyecto realizado por [Tu nombre] como parte de prácticas en SQL Server.
+Proyecto realizado por Delfina Zapata, Florencia Mora y Daniela Lllusco como parte de prácticas en SQL Server.
