@@ -1,16 +1,34 @@
 # Proyecto SQL Server - Empresas
 
-Este repositorio contiene scripts de **SQL Server** organizados en la carpeta `/scripts`.  
-Incluyen la creación de tablas, inserción de datos y consultas para la gestión de Ofertas Laborales.
+Este repositorio contiene el desarrollo de una base de datos en **SQL Server**, dividido en etapas:  
+1. Diseño del modelo entidad-relación en **dbdiagram.io**.  
+2. Creación de tablas y relaciones en SQL Server.  
+3. Inserción de datos y consultas prácticas.
+
+---
+
+## 🎯 Objetivo del proyecto
+Diseñar e implementar una base de datos que permita gestionar un portal de empleos, incluyendo:
+
+- Registro de **empresas** que publican ofertas laborales.
+- Registro de **candidatos** que buscan empleo.
+- Gestión de **ofertas de trabajo**.
+- Postulaciones de candidatos a ofertas específicas.
+- Relaciones entre empresas, ofertas y candidatos.
 
 ---
 
 ## 📂 Contenido
-- `/scripts/Empresas_Grupo1.sql` → Script principal con:
-  - Creación de base de datos y tablas.
-  - Definición de relaciones entre entidades.
-  - Inserciones de registros de ejemplo.
-  - Consultas SQL de práctica.
+ortal-empleos-bd
+│── README.md
+│── /diagram
+│     ├── PortalEmpleos.dbml        # código del diagrama (dbdiagram.io)
+│     ├── PortalEmpleos.png         # exportación del diagrama desde dbdiagram
+│     └── PortalEmpleos_SSMS.png    # captura/exportación del diagrama de SSMS
+│── /scripts
+      ├── 01_creacion_bd.sql
+      ├── 02_datos_iniciales.sql
+      └── 03_consultas.sql
 ---
 
 ## ⚙️ Requisitos
